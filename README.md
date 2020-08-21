@@ -1,7 +1,12 @@
 # simple server
 
-## Usage
+## Build
 
 ```
-go run -d $PATH_TO_SERVE -p $PORT
+make build
+```
+
+## Run
+```
+./bin/simpleserver -d $PATH_TO_SERVE -p $PORT
 ```
